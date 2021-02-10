@@ -72,7 +72,7 @@ def lambda_handler(event, context):
     s3.put_object(Bucket=bucket, Key=fileName, Body=uploads)
 
     message = {
-      'message': 'JSON file succesfully created and uploaded to S3'
+      'message': 'New JSON file succesfully created and uploaded to S3'
        }
 
     return {
