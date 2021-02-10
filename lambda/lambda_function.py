@@ -5,7 +5,7 @@ import requests
 import pandas as pd
 import warnings
 
-#Ignore all warnings
+#Ignore all warnings shown here
 from pandas import json_normalize
 
 warnings.filterwarnings('ignore')
