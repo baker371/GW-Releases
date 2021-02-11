@@ -5,7 +5,7 @@ import requests
 import pandas as pd
 import warnings
 
-# Ignore all pyhon warnings here bla bla
+# Ignore all pyhon warnings here 
 
 from pandas import json_normalize
 
