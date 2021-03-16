@@ -8,7 +8,7 @@ The functions lists all the k8-proxy GitHub repos, and releases data, marges it 
 - Repo URL
 - Release name
 - Release tag
-- Date & Time of the released
+- Date & Time of the released  OK
 
 This information is then converted into a json file and stored into an s3 bucket, triggered by a github webhook to an AWS API Gateway.
 
